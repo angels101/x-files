@@ -1,5 +1,5 @@
 var WhistleBlowwer = artifacts.require('WhistleBlower')
-module.exports = function(deployer)
+export default function(deployer)
 
 {
     deployer.deploy(WhistleBlower)

@@ -5,13 +5,13 @@ contract WhistleBlower {
   //TokenCreator is a contract type that is defined below.
   //It is fine to reference it as long as it is not used
   //to create a new contract.
-  TokenCreator creator;
+  WhistleBlower creator;
   address owner;
-  bytes32 name;
+  whistle name;
   // This is the constructor which registers the 
   // creator and the assigned name.
 
 
-  constructor(bytes32_name) public {
+  constructor(whistle_name) public {
   }
 }
