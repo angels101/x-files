@@ -1,0 +1,147 @@
+{
+    "contracts": {
+        "/home/yu101/Desktop/start/contracts/EvidenceSubmission.sol": {
+            "EvidenceSubmission": {
+                "abi": [
+                    {
+                        "inputs": [],
+                        "stateMutability": "nonpayable",
+                        "type": "constructor"
+                    }
+                ],
+                "devdoc": {
+                    "kind": "dev",
+                    "methods": {},
+                    "version": 1
+                },
+                "evm": {
+                    "bytecode": {
+                        "generatedSources": [],
+                        "linkReferences": {},
+                        "object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220cf51a0ef5f54f3a666a9df877041ff69d8076b81b53b6cfb9d63fe5ec85c6cbd64736f6c63430007050033",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xCF MLOAD LOG0 0xEF 0x5F SLOAD RETURN 0xA6 PUSH7 0xA9DF877041FF69 0xD8 SMOD PUSH12 0x81B53B6CFB9D63FE5EC85C6C 0xBD PUSH5 0x736F6C6343 STOP SMOD SDIV STOP CALLER ",
+                        "sourceMap": "66:60:0:-:0;;;98:26;;;;;;;;;;66:60;;;;;;"
+                    },
+                    "deployedBytecode": {
+                        "generatedSources": [],
+                        "immutableReferences": {},
+                        "linkReferences": {},
+                        "object": "6080604052600080fdfea2646970667358221220cf51a0ef5f54f3a666a9df877041ff69d8076b81b53b6cfb9d63fe5ec85c6cbd64736f6c63430007050033",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xCF MLOAD LOG0 0xEF 0x5F SLOAD RETURN 0xA6 PUSH7 0xA9DF877041FF69 0xD8 SMOD PUSH12 0x81B53B6CFB9D63FE5EC85C6C 0xBD PUSH5 0x736F6C6343 STOP SMOD SDIV STOP CALLER ",
+                        "sourceMap": "66:60:0:-:0;;;;;"
+                    },
+                    "gasEstimates": {
+                        "creation": {
+                            "codeDepositCost": "12600",
+                            "executionCost": "66",
+                            "totalCost": "12666"
+                        }
+                    },
+                    "methodIdentifiers": {}
+                },
+                "metadata": "{\"compiler\":{\"version\":\"0.7.5+commit.eb77ed08\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/yu101/Desktop/start/contracts/EvidenceSubmission.sol\":\"EvidenceSubmission\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/yu101/Desktop/start/contracts/EvidenceSubmission.sol\":{\"keccak256\":\"0x7c3c85cff8d48c20789077b939dd846a77e215b23e7b92e924e4f178b513f43f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c26772f7e260d78196f55ea114d193608a17dc3ba9ec59d412bcd3a2c7e8cf7f\",\"dweb:/ipfs/QmSWpHuKKHieVmaNFxu3aHMEXgUMtPvaML2quGzcNT2K2f\"]}},\"version\":1}",
+                "userdoc": {
+                    "kind": "user",
+                    "methods": {},
+                    "version": 1
+                }
+            }
+        }
+    },
+    "errors": [
+        {
+            "component": "general",
+            "errorCode": "2462",
+            "formattedMessage": "/home/yu101/Desktop/start/contracts/EvidenceSubmission.sol:5:3: Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it \"abstract\" is sufficient.\n  constructor() public {\n  ^ (Relevant source part starts here and spans across multiple lines).\n",
+            "message": "Visibility for constructor is ignored. If you want the contract to be non-deployable, making it \"abstract\" is sufficient.",
+            "severity": "warning",
+            "sourceLocation": {
+                "end": 124,
+                "file": "/home/yu101/Desktop/start/contracts/EvidenceSubmission.sol",
+                "start": 98
+            },
+            "type": "Warning"
+        }
+    ],
+    "sources": {
+        "/home/yu101/Desktop/start/contracts/EvidenceSubmission.sol": {
+            "ast": {
+                "absolutePath": "/home/yu101/Desktop/start/contracts/EvidenceSubmission.sol",
+                "exportedSymbols": {
+                    "EvidenceSubmission": [
+                        6
+                    ]
+                },
+                "id": 7,
+                "license": "MIT",
+                "nodeType": "SourceUnit",
+                "nodes": [
+                    {
+                        "id": 1,
+                        "literals": [
+                            "solidity",
+                            ">=",
+                            "0.4",
+                            ".22",
+                            "<",
+                            "0.8",
+                            ".0"
+                        ],
+                        "nodeType": "PragmaDirective",
+                        "src": "32:32:0"
+                    },
+                    {
+                        "abstract": false,
+                        "baseContracts": [],
+                        "contractDependencies": [],
+                        "contractKind": "contract",
+                        "fullyImplemented": true,
+                        "id": 6,
+                        "linearizedBaseContracts": [
+                            6
+                        ],
+                        "name": "EvidenceSubmission",
+                        "nodeType": "ContractDefinition",
+                        "nodes": [
+                            {
+                                "body": {
+                                    "id": 4,
+                                    "nodeType": "Block",
+                                    "src": "119:5:0",
+                                    "statements": []
+                                },
+                                "id": 5,
+                                "implemented": true,
+                                "kind": "constructor",
+                                "modifiers": [],
+                                "name": "",
+                                "nodeType": "FunctionDefinition",
+                                "parameters": {
+                                    "id": 2,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [],
+                                    "src": "109:2:0"
+                                },
+                                "returnParameters": {
+                                    "id": 3,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [],
+                                    "src": "119:0:0"
+                                },
+                                "scope": 6,
+                                "src": "98:26:0",
+                                "stateMutability": "nonpayable",
+                                "virtual": false,
+                                "visibility": "public"
+                            }
+                        ],
+                        "scope": 7,
+                        "src": "66:60:0"
+                    }
+                ],
+                "src": "32:95:0"
+            },
+            "id": 0
+        }
+    }
+}

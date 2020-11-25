@@ -1,0 +1,104 @@
+{
+    "contractName": "EvidenceSubmission",
+    "abi": [
+        {
+            "inputs": [],
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.7.5+commit.eb77ed08\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/yu101/Desktop/start/contracts/EvidenceSubmission.sol\":\"EvidenceSubmission\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/yu101/Desktop/start/contracts/EvidenceSubmission.sol\":{\"keccak256\":\"0x7c3c85cff8d48c20789077b939dd846a77e215b23e7b92e924e4f178b513f43f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c26772f7e260d78196f55ea114d193608a17dc3ba9ec59d412bcd3a2c7e8cf7f\",\"dweb:/ipfs/QmSWpHuKKHieVmaNFxu3aHMEXgUMtPvaML2quGzcNT2K2f\"]}},\"version\":1}",
+    "bytecode": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220cf51a0ef5f54f3a666a9df877041ff69d8076b81b53b6cfb9d63fe5ec85c6cbd64736f6c63430007050033",
+    "deployedBytecode": "6080604052600080fdfea2646970667358221220cf51a0ef5f54f3a666a9df877041ff69d8076b81b53b6cfb9d63fe5ec85c6cbd64736f6c63430007050033",
+    "sourceMap": "66:60:0:-:0;;;98:26;;;;;;;;;;66:60;;;;;;",
+    "deployedSourceMap": "66:60:0:-:0;;;;;",
+    "sourcePath": "/home/yu101/Desktop/start/contracts/EvidenceSubmission.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.7.5+commit.eb77ed08"
+    },
+    "ast": {
+        "absolutePath": "/home/yu101/Desktop/start/contracts/EvidenceSubmission.sol",
+        "exportedSymbols": {
+            "EvidenceSubmission": [
+                6
+            ]
+        },
+        "id": 7,
+        "license": "MIT",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    ">=",
+                    "0.4",
+                    ".22",
+                    "<",
+                    "0.8",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "32:32:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 6,
+                "linearizedBaseContracts": [
+                    6
+                ],
+                "name": "EvidenceSubmission",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "body": {
+                            "id": 4,
+                            "nodeType": "Block",
+                            "src": "119:5:0",
+                            "statements": []
+                        },
+                        "id": 5,
+                        "implemented": true,
+                        "kind": "constructor",
+                        "modifiers": [],
+                        "name": "",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 2,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "109:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 3,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "119:0:0"
+                        },
+                        "scope": 6,
+                        "src": "98:26:0",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 7,
+                "src": "66:60:0"
+            }
+        ],
+        "src": "32:95:0"
+    },
+    "functionHashes": {},
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "12600",
+            "executionCost": "66",
+            "totalCost": "12666"
+        }
+    }
+}
