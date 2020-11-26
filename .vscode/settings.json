@@ -1,4 +1,6 @@
 {
     "C_Cpp.experimentalFeatures": "Enabled",
-    "markdown.extension.syntax.plainTheme": true
+    "markdown.extension.syntax.plainTheme": true,
+    "search.seedOnFocus": true,
+    "workbench.view.alwaysShowHeaderActions": true
 }
